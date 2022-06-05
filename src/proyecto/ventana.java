@@ -285,7 +285,7 @@ public class ventana extends javax.swing.JFrame {
         panelRealizarVenta.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 204), 2));
 
         jLabel6.setFont(new java.awt.Font("Tahoma", 1, 15)); // NOI18N
-        jLabel6.setText("Numero");
+        jLabel6.setText("Tarjeta");
 
         btnValidar.setFont(new java.awt.Font("Tahoma", 0, 15)); // NOI18N
         btnValidar.setText("Validar");

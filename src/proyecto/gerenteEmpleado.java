@@ -348,6 +348,7 @@ public class gerenteEmpleado extends javax.swing.JFrame {
             txtObjeciones.setEnabled(false);
             btnDespedir.setEnabled(false);
 
+            comboEmpleados.setEnabled(true);
             txfNombre.setEnabled(true);
             txfDNI.setEnabled(true);
             txfSalario.setEnabled(true);
@@ -430,6 +431,7 @@ public class gerenteEmpleado extends javax.swing.JFrame {
             txtObjeciones.setEnabled(true);
             btnDespedir.setEnabled(true);
 
+            comboEmpleados.setEnabled(false);
             txfNombre.setEnabled(false);
             txfDNI.setEnabled(false);
             txfSalario.setEnabled(false);
@@ -487,6 +489,9 @@ public class gerenteEmpleado extends javax.swing.JFrame {
     private void rbAddActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rbAddActionPerformed
         //Limpoamos textFields
         limpiarCampos();
+        btnDespedir.setEnabled(false);
+        txtObjeciones.setEnabled(false);
+        comboEmpleados.setEnabled(false);
 
         //Activamos textFields
         txfNombre.setEnabled(true);
